@@ -1,0 +1,6 @@
+framework module Pods_RBFoundation_Tests {
+  umbrella header "Pods-RBFoundation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

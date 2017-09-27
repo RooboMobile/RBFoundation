@@ -1,0 +1,6 @@
+framework module RBFoundation {
+  umbrella header "RBFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
