@@ -21,9 +21,11 @@
 - (NSString *)base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;
 - (NSString *)base64EncodedString;
 - (NSString *)base64DecodedString;
-- (NSData *)base64DecodedData;
+- (NSData *) base64DecodedData;
 - (NSString*)encryptedWithAESUsingKey:(NSString*)key andIV:(NSData*)iv;
 - (NSString*)decryptedWithAESUsingKey:(NSString*)key andIV:(NSData*)iv;
 - (NSString*)encryptedWith3DESUsingKey:(NSString*)key andIV:(NSData*)iv;
 - (NSString*)decryptedWith3DESUsingKey:(NSString*)key andIV:(NSData*)iv;
+
+- (NSString *)md5String;
 @end

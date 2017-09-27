@@ -11,10 +11,11 @@
 @interface NSData (RBExtension)
 #pragma mark - Encrypt
 
+- (NSString *)md5String;
 /**
  *  @brief  md5 NSData
  */
-@property (readonly) NSData *md5Data;
+- (NSData *)md5Data;
 /**
  *  @brief  字符串base64后转data
  *

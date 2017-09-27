@@ -80,5 +80,7 @@
     }
     return jsonDict;
 }
-
+- (NSString *)md5String {
+    return [[self dataUsingEncoding:NSUTF8StringEncoding] md5String];
+}
 @end
