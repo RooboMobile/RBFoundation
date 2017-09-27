@@ -6,9 +6,9 @@
 //
 //
 
-#import "NSString+BXExtension.h"
-#import "NSData+BXExtension.h"
-@implementation NSString (BXExtension)
+#import "NSString+RBExtension.h"
+#import "NSData+RBExtension.h"
+@implementation NSString (RBExtension)
 #pragma mark - Encrypt
 + (NSString *)stringWithBase64EncodedString:(NSString *)string
 {

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (BXExtension)
+@interface NSDate (RBExtension)
 + (NSCalendar *) currentCalendar;
 + (NSDate *)convertDateToLocalTime: (NSDate *)forDate;
 

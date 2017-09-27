@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (BXExtension)
+@interface NSArray (RBExtension)
 -(id)objectWithIndex:(NSUInteger)index;
 
 - (NSString*)stringWithIndex:(NSUInteger)index;

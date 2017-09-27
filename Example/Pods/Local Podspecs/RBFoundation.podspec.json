@@ -1,8 +1,8 @@
 {
   "name": "RBFoundation",
   "version": "0.1.0",
-  "summary": "A short description of RBFoundation.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "RBFoundation",
+  "description": "Foundation",
   "homepage": "https://github.com/baxiang/RBFoundation",
   "license": {
     "type": "MIT",
@@ -16,7 +16,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "RBFoundation/Classes/**/*"
+  "source_files": "RBFoundation/*.{h,m}",
+  "public_header_files": "RBFoundation/*.h",
+  "frameworks": "Foundation"
 }

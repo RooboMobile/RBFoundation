@@ -6,7 +6,7 @@
 //
 //
 
-#import "NSDate+BXExtension.h"
+#import "NSDate+RBExtension.h"
 
 
 #define D_MINUTE      60
@@ -17,7 +17,7 @@
 
 static const unsigned componentFlags = (NSCalendarUnitYear| NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitWeekOfMonth | NSCalendarUnitWeekOfYear |  NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitWeekday | NSCalendarUnitWeekdayOrdinal);
 
-@implementation NSDate (BXExtension)
+@implementation NSDate (RBExtension)
 
 /**
  *  获获取当前客户端的逻辑日历

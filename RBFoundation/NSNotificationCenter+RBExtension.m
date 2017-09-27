@@ -6,9 +6,9 @@
 //
 //
 
-#import "NSNotificationCenter+BXExtension.h"
+#import "NSNotificationCenter+RBExtension.h"
 
-@implementation NSNotificationCenter (BXExtension)
+@implementation NSNotificationCenter (RBExtension)
 /**
  *  @brief  在主线程中发送一条通知
  *

@@ -6,9 +6,9 @@
 //
 //
 
-#import "NSDictionary+BXExtension.h"
+#import "NSDictionary+RBExtension.h"
 
-@implementation NSDictionary (BXExtension)
+@implementation NSDictionary (RBExtension)
 
 -(NSString *)JSONString{
     NSError *error = nil;

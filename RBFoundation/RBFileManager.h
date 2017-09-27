@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BXFileManager : NSObject
+@interface RBFileManager : NSObject
 #pragma mark - 沙盒目录相关
 
 /**

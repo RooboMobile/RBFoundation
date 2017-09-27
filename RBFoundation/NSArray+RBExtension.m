@@ -6,9 +6,9 @@
 //
 //
 
-#import "NSArray+BXExtension.h"
+#import "NSArray+RBExtension.h"
 
-@implementation NSArray (BXExtension)
+@implementation NSArray (RBExtension)
 -(id)objectWithIndex:(NSUInteger)index{
     if (index <self.count) {
         return self[index];

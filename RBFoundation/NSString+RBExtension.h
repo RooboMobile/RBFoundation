@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (BXExtension)
+@interface NSString (RBExtension)
 /**
  *  @brief  JSON字符串转成NSDictionary
  *

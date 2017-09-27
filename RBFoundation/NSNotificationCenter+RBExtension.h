@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSNotificationCenter (BXExtension)
+@interface NSNotificationCenter (RBExtension)
 /**
  *  @brief  在主线程中发送一条通知
  *

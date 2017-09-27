@@ -8,15 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		01F8079888E5D3490F156C2EFCA8BD5B /* Pods-RBFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BA58E0BF5D36F9C928561D0F608CEB /* Pods-RBFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143AA54E11679E5D8B86F70E66626CF9 /* NSData+RBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6EC0943659304ADF1FC8F6C64CF3D1 /* NSData+RBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15BF90FAE4E2842EF9F2D7EBA3E4DECD /* Pods-RBFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1527AC467FC300F08547FC4F8E7309 /* Pods-RBFoundation_Tests-dummy.m */; };
+		1BA4FE2FE2D908C6F3AF6CD896E0F2DE /* NSString+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AFA8C4AEC1A192D0B953B503D68D86 /* NSString+RBExtension.m */; };
 		4722C0DFD929C1226D39D293CD41E31E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4A191EECD143473FA8495A3F76E2AFFB /* Pods-RBFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A97BF39600493729D278B68867C99B /* Pods-RBFoundation_Example-dummy.m */; };
+		4F9396E55B14CFA7A88D66A55B9EDFC8 /* RBFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE17DAC1CFCC403F09E0456A68C61CD /* RBFoundation-dummy.m */; };
+		527FD016EC84DB620EDFEA0ED061348E /* NSNotificationCenter+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 384CD2E02B75EEFC874D517EE01535E7 /* NSNotificationCenter+RBExtension.m */; };
 		555B32C549D9EB674A283842FCD89EB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		58E18F9A63DEEC59A447C072BB6A547E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FCAC03A18617B3ABD098F13F005E0 /* ReplaceMe.m */; };
-		8F77B0546BCAEDFD5B446A49332E85D3 /* RBFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F93F0764554FB543786C026066312BE /* RBFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55E25AAC9E6DFD0A9FAF6802EC2F2143 /* NSString+RBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 58667D3DA84D5332D273FAB8F5D6488B /* NSString+RBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA380510DE7AB4ED59CD66566A78F43 /* NSDate+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 11969DFEBF28D4347B83D4BC89DF4185 /* NSDate+RBExtension.m */; };
+		5D7F7637B9DD27943A14D4927EDF64EC /* NSData+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB910A87D93FAEB1D24C3D3E0F50BB /* NSData+RBExtension.m */; };
+		6EA9FCCBDCB5E10199F918F20B6CAB7B /* RBFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B66BD53DA3C2C38F1C7E521E326CF /* RBFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C3DBDE09CF1CF35E77D2197327076AC /* NSArray+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E8554279FB4705A859DBD1349638476C /* NSArray+RBExtension.m */; };
+		A1EB0A7E4356C1B68B82B21526B33B00 /* RBFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A3978F18B0DAF3C917F0BA40CE099BC6 /* RBFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3123BB9BA0605FBB23E1755F7A82E0D /* NSArray+RBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBED9F74B31ACC7882B1635B97BE541 /* NSArray+RBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C1B4FE9A5042694B2C0DD11FDE9200 /* NSDate+RBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C84C6461CBBEC599863809721FE8EFAF /* NSDate+RBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8BC50E1EB38890B155169C2A3A99F0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D09ECD6EFB2118BC9962EA67978E544F /* RBFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA004DD2F8EC42DFD882298503CEA259 /* RBFileManager.m */; };
+		D80235A6E7FF1D5C1AF9D8722E48C60D /* NSDictionary+RBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = BD87E826F88950E76CACCF3962D7406C /* NSDictionary+RBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDF59D9838F59FEA10650DFE35E90EF0 /* Pods-RBFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E27D3E63EFE6CADE96FA860B547F9D12 /* Pods-RBFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE290F4FC2C1E3095244A3983CC17849 /* RBFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B0F837C46AB42423975AB6F93B7A5B /* RBFoundation-dummy.m */; };
+		F73DA627973CD04DB1376C850509E5CE /* NSDictionary+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D191673DC2A6D837D7A04C26325BBB /* NSDictionary+RBExtension.m */; };
+		F7F4E3D6BAED7AE184764E7BE1550360 /* NSNotificationCenter+RBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9678EADBA537743D0F40A80C08B0E265 /* NSNotificationCenter+RBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,37 +44,50 @@
 
 /* Begin PBXFileReference section */
 		03A97BF39600493729D278B68867C99B /* Pods-RBFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RBFoundation_Example-dummy.m"; sourceTree = "<group>"; };
-		03B0F837C46AB42423975AB6F93B7A5B /* RBFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RBFoundation-dummy.m"; sourceTree = "<group>"; };
-		0A9FCAC03A18617B3ABD098F13F005E0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RBFoundation/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		0A6234CB587E440DB65E28577913DBB0 /* RBFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RBFoundation.modulemap; sourceTree = "<group>"; };
+		11969DFEBF28D4347B83D4BC89DF4185 /* NSDate+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+RBExtension.m"; path = "RBFoundation/NSDate+RBExtension.m"; sourceTree = "<group>"; };
 		14D443F691C08E8BDAC077F94CC3F78C /* Pods-RBFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RBFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		196C779B6D788E968FEC38A07E96D68B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FB4FD8594917FD5C548E37FCAE8A08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28B3A6CEE4579DE6345BADCD69E5B119 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29BA58E0BF5D36F9C928561D0F608CEB /* Pods-RBFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RBFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
 		2B3779A742F0A5A25728D5BDDF538546 /* Pods-RBFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2E6EC0943659304ADF1FC8F6C64CF3D1 /* NSData+RBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+RBExtension.h"; path = "RBFoundation/NSData+RBExtension.h"; sourceTree = "<group>"; };
+		2F153D2900CE746D631EBA51F2189F64 /* RBFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBFoundation-prefix.pch"; sourceTree = "<group>"; };
+		2FE17DAC1CFCC403F09E0456A68C61CD /* RBFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RBFoundation-dummy.m"; sourceTree = "<group>"; };
+		384CD2E02B75EEFC874D517EE01535E7 /* NSNotificationCenter+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+RBExtension.m"; path = "RBFoundation/NSNotificationCenter+RBExtension.m"; sourceTree = "<group>"; };
+		38AFA8C4AEC1A192D0B953B503D68D86 /* NSString+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RBExtension.m"; path = "RBFoundation/NSString+RBExtension.m"; sourceTree = "<group>"; };
 		39224CA9452A39F6C984F529B3CB64CB /* Pods-RBFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3CDD469160338C91C7C2DE994DA2AAF5 /* Pods-RBFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4CBED9F74B31ACC7882B1635B97BE541 /* NSArray+RBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+RBExtension.h"; path = "RBFoundation/NSArray+RBExtension.h"; sourceTree = "<group>"; };
 		4D6A9C708968401856A86EAFBB370F28 /* Pods-RBFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RBFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		55BBC3C1A2963B7BD886D25D7D25EFFD /* RBFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBFoundation-prefix.pch"; sourceTree = "<group>"; };
+		58667D3DA84D5332D273FAB8F5D6488B /* NSString+RBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RBExtension.h"; path = "RBFoundation/NSString+RBExtension.h"; sourceTree = "<group>"; };
 		59603647BA1BB9822238FECD01ED87A1 /* Pods-RBFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RBFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E1527AC467FC300F08547FC4F8E7309 /* Pods-RBFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RBFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
-		61000770022A8590F6B3EE6138F75A44 /* Pods_RBFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61000770022A8590F6B3EE6138F75A44 /* Pods_RBFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RBFoundation_Tests.framework; path = "Pods-RBFoundation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		626CEBFB4A7F44025F673CCB79CEAE0F /* Pods-RBFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RBFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		657CE6DBF6C6618FBCE15B647FABDFC5 /* Pods_RBFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		657CE6DBF6C6618FBCE15B647FABDFC5 /* Pods_RBFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RBFoundation_Example.framework; path = "Pods-RBFoundation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7FA38D70D7EFBF7D7F88427BC1E9E994 /* Pods-RBFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RBFoundation_Example.modulemap"; sourceTree = "<group>"; };
+		7FA38D70D7EFBF7D7F88427BC1E9E994 /* Pods-RBFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RBFoundation_Example.modulemap"; sourceTree = "<group>"; };
 		8ABA682F48FDE6CA5223905BF1D9C880 /* Pods-RBFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B32FB43D9887AA2C29E60645E3A5381 /* Pods-RBFoundation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBFoundation_Tests-resources.sh"; sourceTree = "<group>"; };
-		8F93F0764554FB543786C026066312BE /* RBFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBFoundation-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D4C7448298446BDC9140F7DE084B316 /* Pods-RBFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RBFoundation_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9678EADBA537743D0F40A80C08B0E265 /* NSNotificationCenter+RBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+RBExtension.h"; path = "RBFoundation/NSNotificationCenter+RBExtension.h"; sourceTree = "<group>"; };
+		970FD3ABB65452405285ABCCF6F9F4BD /* RBFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RBFoundation.xcconfig; sourceTree = "<group>"; };
+		9D4C7448298446BDC9140F7DE084B316 /* Pods-RBFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RBFoundation_Tests.modulemap"; sourceTree = "<group>"; };
 		A0E2BCC8A014C3ED712AC1DAEDD07E82 /* Pods-RBFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A3978F18B0DAF3C917F0BA40CE099BC6 /* RBFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBFileManager.h; path = RBFoundation/RBFileManager.h; sourceTree = "<group>"; };
 		A572CEB3D110FF0EAC9C7853AC71E055 /* Pods-RBFoundation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBFoundation_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B738FF459DE9B712D8F437BF6AE66A01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCD8A500563C11DAF2D7FB13FB1F65C7 /* RBFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RBFoundation.xcconfig; sourceTree = "<group>"; };
-		CE7C9347F489A886A89D0BFB250E5A50 /* RBFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RBFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD87E826F88950E76CACCF3962D7406C /* NSDictionary+RBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+RBExtension.h"; path = "RBFoundation/NSDictionary+RBExtension.h"; sourceTree = "<group>"; };
+		C84C6461CBBEC599863809721FE8EFAF /* NSDate+RBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+RBExtension.h"; path = "RBFoundation/NSDate+RBExtension.h"; sourceTree = "<group>"; };
+		CE7C9347F489A886A89D0BFB250E5A50 /* RBFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RBFoundation.framework; path = RBFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D191673DC2A6D837D7A04C26325BBB /* NSDictionary+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+RBExtension.m"; path = "RBFoundation/NSDictionary+RBExtension.m"; sourceTree = "<group>"; };
 		E27D3E63EFE6CADE96FA860B547F9D12 /* Pods-RBFoundation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RBFoundation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E8554279FB4705A859DBD1349638476C /* NSArray+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+RBExtension.m"; path = "RBFoundation/NSArray+RBExtension.m"; sourceTree = "<group>"; };
 		E917DDE5488CE5E5130F5CDB2CF99945 /* Pods-RBFoundation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBFoundation_Example-resources.sh"; sourceTree = "<group>"; };
-		EF11216B37B5E12BAD266221CDEA729E /* RBFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RBFoundation.modulemap; sourceTree = "<group>"; };
+		F7EB910A87D93FAEB1D24C3D3E0F50BB /* NSData+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+RBExtension.m"; path = "RBFoundation/NSData+RBExtension.m"; sourceTree = "<group>"; };
+		FA004DD2F8EC42DFD882298503CEA259 /* RBFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBFileManager.m; path = RBFoundation/RBFileManager.m; sourceTree = "<group>"; };
+		FE0B66BD53DA3C2C38F1C7E521E326CF /* RBFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBFoundation-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,30 +118,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B0F8F896FCF7B144BB396DF05B845F2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				196C779B6D788E968FEC38A07E96D68B /* Info.plist */,
-				EF11216B37B5E12BAD266221CDEA729E /* RBFoundation.modulemap */,
-				BCD8A500563C11DAF2D7FB13FB1F65C7 /* RBFoundation.xcconfig */,
-				03B0F837C46AB42423975AB6F93B7A5B /* RBFoundation-dummy.m */,
-				55BBC3C1A2963B7BD886D25D7D25EFFD /* RBFoundation-prefix.pch */,
-				8F93F0764554FB543786C026066312BE /* RBFoundation-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RBFoundation";
-			sourceTree = "<group>";
-		};
-		15A972302B8A02B5D3A424AC80D4FAA6 /* RBFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				0A9FCAC03A18617B3ABD098F13F005E0 /* ReplaceMe.m */,
-				0B0F8F896FCF7B144BB396DF05B845F2 /* Support Files */,
-			);
-			name = RBFoundation;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		2247F99102BF36BC96EB30F8166ED4D8 /* Pods-RBFoundation_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,23 +136,60 @@
 			path = "Target Support Files/Pods-RBFoundation_Tests";
 			sourceTree = "<group>";
 		};
-		6D6C547DE893ABB5EA13AD659B37863C /* Development Pods */ = {
+		526621F594C955A48377D5C9BBC7E863 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				15A972302B8A02B5D3A424AC80D4FAA6 /* RBFoundation */,
+				20FB4FD8594917FD5C548E37FCAE8A08 /* Info.plist */,
+				0A6234CB587E440DB65E28577913DBB0 /* RBFoundation.modulemap */,
+				970FD3ABB65452405285ABCCF6F9F4BD /* RBFoundation.xcconfig */,
+				2FE17DAC1CFCC403F09E0456A68C61CD /* RBFoundation-dummy.m */,
+				2F153D2900CE746D631EBA51F2189F64 /* RBFoundation-prefix.pch */,
+				FE0B66BD53DA3C2C38F1C7E521E326CF /* RBFoundation-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RBFoundation";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6D6C547DE893ABB5EA13AD659B37863C /* Development Pods */,
+				94FEA95587A6FCC6A928CC0261A1E271 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E376D4D697BCFA96F4619AE80B1D30E7 /* Products */,
 				AB5F300A7F0B3C7EA5AF9AFBE62AD8D1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7F76CD9A2C1253507180340990357558 /* RBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				4CBED9F74B31ACC7882B1635B97BE541 /* NSArray+RBExtension.h */,
+				E8554279FB4705A859DBD1349638476C /* NSArray+RBExtension.m */,
+				2E6EC0943659304ADF1FC8F6C64CF3D1 /* NSData+RBExtension.h */,
+				F7EB910A87D93FAEB1D24C3D3E0F50BB /* NSData+RBExtension.m */,
+				C84C6461CBBEC599863809721FE8EFAF /* NSDate+RBExtension.h */,
+				11969DFEBF28D4347B83D4BC89DF4185 /* NSDate+RBExtension.m */,
+				BD87E826F88950E76CACCF3962D7406C /* NSDictionary+RBExtension.h */,
+				E1D191673DC2A6D837D7A04C26325BBB /* NSDictionary+RBExtension.m */,
+				9678EADBA537743D0F40A80C08B0E265 /* NSNotificationCenter+RBExtension.h */,
+				384CD2E02B75EEFC874D517EE01535E7 /* NSNotificationCenter+RBExtension.m */,
+				58667D3DA84D5332D273FAB8F5D6488B /* NSString+RBExtension.h */,
+				38AFA8C4AEC1A192D0B953B503D68D86 /* NSString+RBExtension.m */,
+				A3978F18B0DAF3C917F0BA40CE099BC6 /* RBFileManager.h */,
+				FA004DD2F8EC42DFD882298503CEA259 /* RBFileManager.m */,
+				526621F594C955A48377D5C9BBC7E863 /* Support Files */,
+			);
+			name = RBFoundation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		94FEA95587A6FCC6A928CC0261A1E271 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F76CD9A2C1253507180340990357558 /* RBFoundation */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		AA9A0C48F20A8FA5BC748A4846A05604 /* Pods-RBFoundation_Example */ = {
@@ -217,19 +256,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		330214BADD97EF52269D7F07F99681A4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F77B0546BCAEDFD5B446A49332E85D3 /* RBFoundation-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6449114B15B33B7DBE971BB94B4D8AA6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				01F8079888E5D3490F156C2EFCA8BD5B /* Pods-RBFoundation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28358DA4AEC130ADA66C6FC0E0DF1A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3123BB9BA0605FBB23E1755F7A82E0D /* NSArray+RBExtension.h in Headers */,
+				143AA54E11679E5D8B86F70E66626CF9 /* NSData+RBExtension.h in Headers */,
+				C7C1B4FE9A5042694B2C0DD11FDE9200 /* NSDate+RBExtension.h in Headers */,
+				D80235A6E7FF1D5C1AF9D8722E48C60D /* NSDictionary+RBExtension.h in Headers */,
+				F7F4E3D6BAED7AE184764E7BE1550360 /* NSNotificationCenter+RBExtension.h in Headers */,
+				55E25AAC9E6DFD0A9FAF6802EC2F2143 /* NSString+RBExtension.h in Headers */,
+				A1EB0A7E4356C1B68B82B21526B33B00 /* RBFileManager.h in Headers */,
+				6EA9FCCBDCB5E10199F918F20B6CAB7B /* RBFoundation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,9 +286,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30AB782A2F934960A6693FA213196180 /* Build configuration list for PBXNativeTarget "RBFoundation" */;
 			buildPhases = (
-				4A11C9B774B0A5C0A6F402BB76230538 /* Sources */,
+				2C48A7ED526D8A38D35C67427BB0FF17 /* Sources */,
 				2DF8BFCE4905DA8FA761018D30540FED /* Frameworks */,
-				330214BADD97EF52269D7F07F99681A4 /* Headers */,
+				C28358DA4AEC130ADA66C6FC0E0DF1A1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -317,12 +363,18 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4A11C9B774B0A5C0A6F402BB76230538 /* Sources */ = {
+		2C48A7ED526D8A38D35C67427BB0FF17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE290F4FC2C1E3095244A3983CC17849 /* RBFoundation-dummy.m in Sources */,
-				58E18F9A63DEEC59A447C072BB6A547E /* ReplaceMe.m in Sources */,
+				8C3DBDE09CF1CF35E77D2197327076AC /* NSArray+RBExtension.m in Sources */,
+				5D7F7637B9DD27943A14D4927EDF64EC /* NSData+RBExtension.m in Sources */,
+				5BA380510DE7AB4ED59CD66566A78F43 /* NSDate+RBExtension.m in Sources */,
+				F73DA627973CD04DB1376C850509E5CE /* NSDictionary+RBExtension.m in Sources */,
+				527FD016EC84DB620EDFEA0ED061348E /* NSNotificationCenter+RBExtension.m in Sources */,
+				1BA4FE2FE2D908C6F3AF6CD896E0F2DE /* NSString+RBExtension.m in Sources */,
+				D09ECD6EFB2118BC9962EA67978E544F /* RBFileManager.m in Sources */,
+				4F9396E55B14CFA7A88D66A55B9EDFC8 /* RBFoundation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +444,7 @@
 		};
 		4CFFB568430C832101CFBF12163366E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCD8A500563C11DAF2D7FB13FB1F65C7 /* RBFoundation.xcconfig */;
+			baseConfigurationReference = 970FD3ABB65452405285ABCCF6F9F4BD /* RBFoundation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -590,7 +642,7 @@
 		};
 		E0EB887FEBD7475B94C51739BC0AF520 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCD8A500563C11DAF2D7FB13FB1F65C7 /* RBFoundation.xcconfig */;
+			baseConfigurationReference = 970FD3ABB65452405285ABCCF6F9F4BD /* RBFoundation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

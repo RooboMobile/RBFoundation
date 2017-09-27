@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSData (BXExtension)
+@interface NSData (RBExtension)
 #pragma mark - Encrypt
 
 /**

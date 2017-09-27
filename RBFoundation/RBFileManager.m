@@ -6,9 +6,9 @@
 //
 //
 
-#import "BXFileManager.h"
+#import "RBFileManager.h"
 
-@implementation BXFileManager
+@implementation RBFileManager
 #pragma mark - 沙盒目录相关
 
 + (NSURL *)URLForDirectory:(NSSearchPathDirectory)directory
@@ -90,23 +90,23 @@
 }
 
 + (NSArray *)listFilesInHomeDirectoryByDeep:(BOOL)deep {
-    return [self listFilesInDirectoryAtPath:[BXFileManager homePath] deep:deep];
+    return [self listFilesInDirectoryAtPath:[RBFileManager homePath] deep:deep];
 }
 
 + (NSArray *)listFilesInLibraryDirectoryByDeep:(BOOL)deep {
-    return [self listFilesInDirectoryAtPath:[BXFileManager libraryPath] deep:deep];
+    return [self listFilesInDirectoryAtPath:[RBFileManager libraryPath] deep:deep];
 }
 
 + (NSArray *)listFilesInDocumentDirectoryByDeep:(BOOL)deep {
-    return [self listFilesInDirectoryAtPath:[BXFileManager documentsPath] deep:deep];
+    return [self listFilesInDirectoryAtPath:[RBFileManager documentsPath] deep:deep];
 }
 
 + (NSArray *)listFilesInTmpDirectoryByDeep:(BOOL)deep {
-    return [self listFilesInDirectoryAtPath:[BXFileManager tmpPath] deep:deep];
+    return [self listFilesInDirectoryAtPath:[RBFileManager tmpPath] deep:deep];
 }
 
 + (NSArray *)listFilesInCachesDirectoryByDeep:(BOOL)deep {
-    return [self listFilesInDirectoryAtPath:[BXFileManager cachesPath] deep:deep];
+    return [self listFilesInDirectoryAtPath:[RBFileManager cachesPath] deep:deep];
 }
 
 #pragma mark - 获取文件属性
@@ -218,7 +218,7 @@
     BOOL isSuccess = YES;
     
     for (NSString *file in subFiles) {
-        NSString *absolutePath = [[BXFileManager cachesPath] stringByAppendingPathComponent:file];
+        NSString *absolutePath = [[RBFileManager cachesPath] stringByAppendingPathComponent:file];
         isSuccess &= [self removeItemAtPath:absolutePath];
     }
     return isSuccess;
@@ -229,7 +229,7 @@
     BOOL isSuccess = YES;
     
     for (NSString *file in subFiles) {
-        NSString *absolutePath = [[BXFileManager tmpPath] stringByAppendingPathComponent:file];
+        NSString *absolutePath = [[RBFileManager tmpPath] stringByAppendingPathComponent:file];
         isSuccess &= [self removeItemAtPath:absolutePath];
     }
     return isSuccess;

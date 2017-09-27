@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (BXExtension)
+@interface NSDictionary (RBExtension)
 - (NSString *)JSONString;
 /**
  *  @brief  将url参数转换成NSDictionary

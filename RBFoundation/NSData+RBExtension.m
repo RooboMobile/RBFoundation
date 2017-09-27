@@ -6,9 +6,9 @@
 //
 //
 
-#import "NSData+BXExtension.h"
-#import <CommonCrypto/CommonCryptor.h>
-@implementation NSData (BXExtension)
+#import "NSData+RBExtension.h"
+#include <CommonCrypto/CommonCrypto.h>
+@implementation NSData (RBExtension)
 #pragma mark - hash
 
 /**
