@@ -171,7 +171,7 @@
 }
 - (int64_t)int64WithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     if (value == nil || value == [NSNull null])
     {
@@ -186,7 +186,7 @@
 
 - (char)charWithIndex:(NSUInteger)index{
     
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     if (value == nil || value == [NSNull null])
     {
@@ -201,7 +201,7 @@
 
 - (short)shortWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     if (value == nil || value == [NSNull null])
     {
@@ -219,7 +219,7 @@
 }
 - (float)floatWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     if (value == nil || value == [NSNull null])
     {

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RBFoundation'
-  s.version="1.0.0"
+  s.version="1.0.1"
   s.summary          = 'RBFoundation'
   s.description      = 'Foundation'
   s.homepage         = 'https://github.com/RooboMobile/RBFoundation'
