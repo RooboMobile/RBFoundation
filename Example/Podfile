@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RBFoundation_Example' do
+  pod 'RBFoundation', :path => '../'
+
+  target 'RBFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
