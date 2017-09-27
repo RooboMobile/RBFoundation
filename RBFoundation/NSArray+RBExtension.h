@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSArray (RBExtension)
--(id)objectWithIndex:(NSUInteger)index;
+-(id)objectOrNilAtIndex:(NSUInteger)index;
 
 - (NSString*)stringWithIndex:(NSUInteger)index;
 

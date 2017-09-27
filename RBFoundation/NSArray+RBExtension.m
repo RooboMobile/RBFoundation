@@ -9,7 +9,7 @@
 #import "NSArray+RBExtension.h"
 
 @implementation NSArray (RBExtension)
--(id)objectWithIndex:(NSUInteger)index{
+-(id)objectOrNilAtIndex:(NSUInteger)index{
     if (index <self.count) {
         return self[index];
     }else{
@@ -19,7 +19,7 @@
 
 - (NSString*)stringWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     if (value == nil || value == [NSNull null])
     {
         return @"";
@@ -37,7 +37,7 @@
 
 - (NSNumber*)numberWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     if ([value isKindOfClass:[NSNumber class]]) {
         return (NSNumber*)value;
     }
@@ -50,7 +50,7 @@
 }
 
 - (NSDecimalNumber *)decimalNumberWithIndex:(NSUInteger)index{
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     if ([value isKindOfClass:[NSDecimalNumber class]]) {
         return value;
@@ -66,7 +66,7 @@
 
 - (NSArray*)arrayWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     if (value == nil || value == [NSNull null])
     {
         return nil;
@@ -81,7 +81,7 @@
 
 - (NSDictionary*)dictionaryWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     if (value == nil || value == [NSNull null])
     {
         return nil;
@@ -95,7 +95,7 @@
 
 - (NSInteger)integerWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     if (value == nil || value == [NSNull null])
     {
         return 0;
@@ -108,7 +108,7 @@
 }
 - (NSUInteger)unsignedIntegerWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     if (value == nil || value == [NSNull null])
     {
         return 0;
@@ -121,7 +121,7 @@
 }
 - (BOOL)boolWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     if (value == nil || value == [NSNull null])
     {
@@ -139,7 +139,7 @@
 }
 - (int16_t)int16WithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     if (value == nil || value == [NSNull null])
     {
@@ -157,7 +157,7 @@
 }
 - (int32_t)int32WithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     if (value == nil || value == [NSNull null])
     {
@@ -233,7 +233,7 @@
 }
 - (double)doubleWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     if (value == nil || value == [NSNull null])
     {
@@ -249,7 +249,7 @@
 - (NSDate *)dateWithIndex:(NSUInteger)index dateFormat:(NSString *)dateFormat {
     NSDateFormatter *formater = [[NSDateFormatter alloc]init];
     formater.dateFormat = dateFormat;
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     if (value == nil || value == [NSNull null])
     {
@@ -265,7 +265,7 @@
 //CG
 - (CGFloat)CGFloatWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     CGFloat f = [value doubleValue];
     
@@ -274,7 +274,7 @@
 
 - (CGPoint)pointWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     CGPoint point = CGPointFromString(value);
     
@@ -282,7 +282,7 @@
 }
 - (CGSize)sizeWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     CGSize size = CGSizeFromString(value);
     
@@ -290,7 +290,7 @@
 }
 - (CGRect)rectWithIndex:(NSUInteger)index
 {
-    id value = [self objectWithIndex:index];
+    id value = [self objectOrNilAtIndex:index];
     
     CGRect rect = CGRectFromString(value);
     
