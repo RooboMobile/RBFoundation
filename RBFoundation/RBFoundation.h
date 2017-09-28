@@ -15,7 +15,7 @@
 #import <RBFoundation/NSString+RBExtension.h>
 #import <RBFoundation/RBFoundationMacro.h>
 #import <RBFoundation/NSDate+RBExtension.h>
-
+#import <RBFoundation/NSObject+RBSafe.h>
 #else
 #include "RBFileManager.h"
 #import "NSData+RBExtension.h"
@@ -25,4 +25,5 @@
 #import "NSString+RBExtension.h"
 #import "RBFoundationMacro.h"
 #import "NSDate+RBExtension.h"
+#import "NSObject+RBSafe.h"
 #endif

@@ -25,6 +25,10 @@
 		A3123BB9BA0605FBB23E1755F7A82E0D /* NSArray+RBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBED9F74B31ACC7882B1635B97BE541 /* NSArray+RBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2AB59F11F7BA26200D45FD7 /* RBFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AB59EF1F7BA26200D45FD7 /* RBFoundation.h */; };
 		C2AB59F21F7BA26200D45FD7 /* RBFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AB59EF1F7BA26200D45FD7 /* RBFoundation.h */; };
+		C2AB5A0A1F7C98D100D45FD7 /* NSObject+RBSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AB5A081F7C98D100D45FD7 /* NSObject+RBSafe.h */; };
+		C2AB5A0B1F7C98D100D45FD7 /* NSObject+RBSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AB5A081F7C98D100D45FD7 /* NSObject+RBSafe.h */; };
+		C2AB5A0C1F7C98D100D45FD7 /* NSObject+RBSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AB5A091F7C98D100D45FD7 /* NSObject+RBSafe.m */; };
+		C2AB5A0D1F7C98D100D45FD7 /* NSObject+RBSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AB5A091F7C98D100D45FD7 /* NSObject+RBSafe.m */; };
 		C7C1B4FE9A5042694B2C0DD11FDE9200 /* NSDate+RBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C84C6461CBBEC599863809721FE8EFAF /* NSDate+RBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8BC50E1EB38890B155169C2A3A99F0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D09ECD6EFB2118BC9962EA67978E544F /* RBFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA004DD2F8EC42DFD882298503CEA259 /* RBFileManager.m */; };
@@ -83,6 +87,8 @@
 		BD87E826F88950E76CACCF3962D7406C /* NSDictionary+RBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+RBExtension.h"; path = "RBFoundation/NSDictionary+RBExtension.h"; sourceTree = "<group>"; };
 		C2AB59EF1F7BA26200D45FD7 /* RBFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RBFoundation.h; path = RBFoundation/RBFoundation.h; sourceTree = "<group>"; };
 		C2AB59F51F7BA43700D45FD7 /* RBFoundationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RBFoundationMacro.h; path = RBFoundation/RBFoundationMacro.h; sourceTree = "<group>"; };
+		C2AB5A081F7C98D100D45FD7 /* NSObject+RBSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSObject+RBSafe.h"; path = "RBFoundation/NSObject+RBSafe.h"; sourceTree = "<group>"; };
+		C2AB5A091F7C98D100D45FD7 /* NSObject+RBSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RBSafe.m"; path = "RBFoundation/NSObject+RBSafe.m"; sourceTree = "<group>"; };
 		C84C6461CBBEC599863809721FE8EFAF /* NSDate+RBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+RBExtension.h"; path = "RBFoundation/NSDate+RBExtension.h"; sourceTree = "<group>"; };
 		CE7C9347F489A886A89D0BFB250E5A50 /* RBFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RBFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D191673DC2A6D837D7A04C26325BBB /* NSDictionary+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+RBExtension.m"; path = "RBFoundation/NSDictionary+RBExtension.m"; sourceTree = "<group>"; };
@@ -169,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				C2AB59EF1F7BA26200D45FD7 /* RBFoundation.h */,
+				C2AB5A081F7C98D100D45FD7 /* NSObject+RBSafe.h */,
+				C2AB5A091F7C98D100D45FD7 /* NSObject+RBSafe.m */,
 				C2AB59F51F7BA43700D45FD7 /* RBFoundationMacro.h */,
 				4CBED9F74B31ACC7882B1635B97BE541 /* NSArray+RBExtension.h */,
 				E8554279FB4705A859DBD1349638476C /* NSArray+RBExtension.m */,
@@ -266,6 +274,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2AB5A0A1F7C98D100D45FD7 /* NSObject+RBSafe.h in Headers */,
 				01F8079888E5D3490F156C2EFCA8BD5B /* Pods-RBFoundation_Example-umbrella.h in Headers */,
 				C2AB59F11F7BA26200D45FD7 /* RBFoundation.h in Headers */,
 			);
@@ -278,6 +287,7 @@
 				A3123BB9BA0605FBB23E1755F7A82E0D /* NSArray+RBExtension.h in Headers */,
 				143AA54E11679E5D8B86F70E66626CF9 /* NSData+RBExtension.h in Headers */,
 				C7C1B4FE9A5042694B2C0DD11FDE9200 /* NSDate+RBExtension.h in Headers */,
+				C2AB5A0B1F7C98D100D45FD7 /* NSObject+RBSafe.h in Headers */,
 				D80235A6E7FF1D5C1AF9D8722E48C60D /* NSDictionary+RBExtension.h in Headers */,
 				F7F4E3D6BAED7AE184764E7BE1550360 /* NSNotificationCenter+RBExtension.h in Headers */,
 				55E25AAC9E6DFD0A9FAF6802EC2F2143 /* NSString+RBExtension.h in Headers */,
@@ -349,7 +359,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2AB5A0D1F7C98D100D45FD7 /* NSObject+RBSafe.m in Sources */,
 				8C3DBDE09CF1CF35E77D2197327076AC /* NSArray+RBExtension.m in Sources */,
 				5D7F7637B9DD27943A14D4927EDF64EC /* NSData+RBExtension.m in Sources */,
 				5BA380510DE7AB4ED59CD66566A78F43 /* NSDate+RBExtension.m in Sources */,
@@ -398,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2AB5A0C1F7C98D100D45FD7 /* NSObject+RBSafe.m in Sources */,
 				4A191EECD143473FA8495A3F76E2AFFB /* Pods-RBFoundation_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,7 +505,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -501,14 +515,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -573,7 +593,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -581,15 +603,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
