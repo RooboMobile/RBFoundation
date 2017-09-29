@@ -17,7 +17,7 @@
 #import <RBFoundation/NSDate+RBExtension.h>
 #import <RBFoundation/NSObject+RBSafe.h>
 #else
-#include "RBFileManager.h"
+#import "RBFileManager.h"
 #import "NSData+RBExtension.h"
 #import "NSArray+RBExtension.h"
 #import "NSDictionary+RBExtension.h"
