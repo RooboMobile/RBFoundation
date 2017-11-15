@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (RBExtension)
+
+- (NSUInteger)lengthWhenCountingNonASCIICharacterAsTwo;
+
 /**
  *  @brief  JSON字符串转成NSDictionary
  *
@@ -28,4 +31,8 @@
 - (NSString*)decryptedWith3DESUsingKey:(NSString*)key andIV:(NSData*)iv;
 
 - (NSString *)md5String;
+
+- (BOOL)isNotBlank;
+
+- (CGSize)sizeForFont:(UIFont *)font size:(CGSize)size mode:(NSLineBreakMode)lineBreakMode;
 @end
