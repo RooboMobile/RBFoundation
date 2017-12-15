@@ -6,6 +6,9 @@
 //
 //
 
+#import <UIKit/UIKit.h>
+#import <pthread.h>
+
 #ifndef RBFoundationMacro_h
 #define RBFoundationMacro_h
 
