@@ -23,10 +23,10 @@
 
 
 //    系统控件的默认高度
-#define kStatusBarHeight   (20.f)
-#define kTopBarHeight      (44.f)
-#define kBottomBarHeight   (49.f)
-#define kCellDefaultHeight (44.f)
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kNavBarHeight 44.0
+#define kTabBarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49)
+#define kTopHeight (kStatusBarHeight + kNavBarHeight)
 
 // **************************************** FRAME ADAPTER ********************************************
 #define CGRectMakeFrame(X,Y,W,H) CGRectMake((X) * WidthScale, (Y) * WidthScale, (W) * WidthScale,(H) * WidthScale) //适配
